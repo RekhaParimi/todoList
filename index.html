@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('todolistimage.jpg'); background-size: cover;">
+    <h1>Pomodoro To-Do List</h1>
+    <div id="app">
+        <div class="task-section">
+            <h2>Add Tasks</h2>
+            <input type="text" id="task" placeholder="Enter your task">
+            <button id="addTask">Add</button>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="completed-section">
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks"></ul>
+        </div>
+        <div class="productive-time">
+            <h2>Productive Time Today</h2>
+            <p id="productiveTime">0 min</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
